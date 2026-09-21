@@ -16,4 +16,3 @@ if __name__ == "__main__":
         uvicorn.run('main:app', host="0.0.0.0", port=23622, reload=args.debug)
     else:
         uvicorn.run('main:app', host="0.0.0.0", port=8089, reload=args.debug)
-
